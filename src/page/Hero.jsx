@@ -3,7 +3,7 @@ import LoadingAnimation from '../GSAP/LoadingAnimation';
 import gsap from 'gsap';
 import Navbar from '../components/Navbar';
 import Titel from '../components/HeroCom/Title';
-import Rocket from '../components/HeroCom/Rocket';
+import Rocket from "../components/HeroCom/Rocket"
 import Trofy from '../components/HeroCom/Trofy';
 import MainText from '../GSAP/MainText';
 
