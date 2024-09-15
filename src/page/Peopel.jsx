@@ -88,4 +88,4 @@ function Peopel() {
     );
 }
 
-export default Peopel;
+export default Peopel
