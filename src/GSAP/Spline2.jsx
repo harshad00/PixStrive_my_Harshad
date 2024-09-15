@@ -20,7 +20,7 @@ function Spline2() {
         <div className=' flex h-screen justify-between items-center gap-4 px-20'>
             <div className=' flex flex-col items-center pt-0 w-[50%]'>
                 <h1 className='text-[#7DD956] text-[2.5vw] font-montserrat uppercase' > The Solutions we propose </h1>
-                <p className=' text-justify text-[1.7vw] px-5 text-white '> Sleek IT Solutions: Simplify and save on infrastructure. <br />
+                <p className=' text-justify text-[1.7vw] px-5 text-white font-nerko '> Sleek IT Solutions: Simplify and save on infrastructure. <br />
 
                     Process Boost: Optimize for peak productivity. <br />
 
