@@ -28,7 +28,7 @@ function SplineAni() {
 
         <div className=' flex flex-col items-center pt-0 w-[50%]'>
           <h1 className='text-[#7DD956] text-[2.5vw] font-montserrat uppercase' > The Problems you are facing </h1>
-          <p className=' text-justify text-[1.7vw] px-5 text-white forn-nerko '> Overwhelming IT Systems: Complexity and high costs. <br />
+          <p className=' text-justify text-[1.7vw] px-5 text-white font-nerko '> Overwhelming IT Systems: Complexity and high costs. <br />
 
             Outdated Processes: Slowing down your growth. <br />
 
