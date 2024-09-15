@@ -4,7 +4,7 @@ import Hero from './page/Hero.jsx'
 import "./App.css"
 import "./Locomotive.css"
 import Story from './page/Story.jsx'
-import Peopel  from './page/Peopel.jsx'
+// import Peopel from './page/Peopel.jsx'
 import Scrolling from "./GSAP/Scolling.jsx"
 import Footer from './components/Footer.jsx'
 import SplineAni from './GSAP/SplineAni.jsx'
@@ -30,23 +30,23 @@ function App() {
         </section> */}
 
         <section className=''>
-          
-          <Peopel/>
+
+          {/* <Peopel /> */}
 
         </section>
-        <section> 
-      
-          <SplineAni/>
+        <section>
+
+          <SplineAni />
         </section>
         <section>
-          <Spline2/>
+          <Spline2 />
         </section>
         <section className=' '>
-          <Scrolling/>
+          <Scrolling />
         </section>
 
         <section className='h-[60vh] '>
-          <Footer/>
+          <Footer />
 
         </section>
       </div>
