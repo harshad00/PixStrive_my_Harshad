@@ -1,0 +1,36 @@
+.hero{
+    /* background-color: red; */
+    width: 72%;
+    margin-left: 27%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* z-index: 9999; */
+  }
+  * /* .hero:nth-child(1){
+    /* margin-top: 1vh ; */
+  /* } */
+  
+  .hero h1{
+      font-size: 7vw;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 7vw;
+  }
+  .hero h2,span {
+      font-size: 7vw;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 7vw;
+      border-bottom: 0.5vw solid #fff;
+  }
+  
+  .hero h2:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+    font-weight: 500;
+    border-bottom: 0.5vw solid transparent; 
+  } 
+   

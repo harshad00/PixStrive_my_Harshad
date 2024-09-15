@@ -1,0 +1,15 @@
+
+.btnAni{
+    transition: all 0.5s ease;
+}
+.btnAni:hover{
+
+    box-shadow: 2px 2px 3px 2px #7DD956 ;
+}
+.btnAni2{
+    transition: all 0.5s ease;
+}
+.btnAni2:hover{
+
+    box-shadow: 2px 2px 3px 2px #fff ;
+}

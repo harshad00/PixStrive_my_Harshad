@@ -1,0 +1,18 @@
+
+ 
+#myPath {
+    stroke-dasharray: 1000;
+    /* Adjust to be larger than the path length */
+    stroke-dashoffset: 1000;
+    /* Start hidden */
+    animation: draw 5s linear forwards;
+    stroke: lightcoral;
+   
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+        /* Finish with the entire path visible */
+    }
+}

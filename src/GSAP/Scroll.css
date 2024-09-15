@@ -1,0 +1,59 @@
+#page5{
+    background-color: #151515;
+    width: 100%;
+   min-height: 100vh;
+   padding: 5vw 0;
+   position: relative;
+}
+
+.elem{
+white-space: nowrap;
+margin-bottom: 1vw;
+overflow: hidden;
+
+}
+.elem1{
+white-space: nowrap;
+margin-bottom: 1vw;
+overflow: hidden;
+
+}
+
+.elem h1 {
+    font-size: 8vw;
+    -webkit-text-stroke: 1px  #fff; 
+    font-weight: 400;
+    text-transform: uppercase;
+    color: transparent;
+    display: inline-block;
+    margin: right 16px ;
+    animation: anime1 10s linear infinite ;
+    transition: all 2s;
+}
+.elem1 h1 {
+    font-size: 8vw;
+    -webkit-text-stroke: 1px  #fff; 
+    font-weight: 400;
+    text-transform: uppercase;
+    color: transparent;
+    display: inline-block;
+    margin: right 16px ;
+    transform: translateX(calc(-100% - 20px));
+    animation: anime1 10s linear infinite reverse ;
+}
+.elem h1 samp:hover{
+    color: #fff;
+}
+.elem1 h1 samp:hover{
+    color: #fff;
+}
+@keyframes anime1 
+{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - 0px));
+    }
+    
+}
