@@ -4,7 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function People() {
+function Peopel() {
     const main = useRef(null);
     const rText = useRef(null);
     const lText = useRef(null);
@@ -88,4 +88,4 @@ function People() {
     );
 }
 
-export default People;
+export default Peopel;
