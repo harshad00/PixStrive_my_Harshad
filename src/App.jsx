@@ -30,7 +30,9 @@ function App() {
         </section> */}
 
         <section className=''>
-         <Peopel/>
+          
+          <Peopel/>
+
         </section>
         <section> 
       
